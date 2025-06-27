@@ -17,7 +17,7 @@ This project implements an automated trading system prototype that:
 - **Trading Signals:** Buy when RSI < 30 and 20DMA crosses above 50DMA.
 - **Machine Learning:** Logistic Regression and Decision Tree classifiers on RSI, MACD, and volume.
 - **Automation:** Google Sheets integration for live trade logs and PnL summaries.
-- **Modular Code:** Functions organized for data fetching, indicator calculation, signal generation, ML modeling, and Google Sheets updates.
+- **Modular Code:** Functions organised for data fetching, indicator calculation, signal generation, ML modelling, and Google Sheets updates.
 
 ## 🧠 Machine Learning Details
 
@@ -39,3 +39,18 @@ This project implements an automated trading system prototype that:
 
 ```bash
 pip install yfinance ta gspread oauth2client scikit-learn pandas matplotlib
+```
+3. Upload your Google Cloud service account JSON key in the Colab notebook.
+4. Run the notebook cells sequentially to fetch data, compute indicators, generate signals, train ML models, and update Google Sheets.
+5. Run the notebook cells sequentially to fetch data, compute indicators, generate signals, train ML models, and update Google Sheets.
+
+## 🎥 Demo Videos
+- Strategy Logic & Code Flow: [Insert Link Here]
+- ML Predictions & Google Sheets Integration: [Insert Link Here]
+
+## 🙋 Author
+Vanshaj Verma — NSUT'27 | ICE Dept
+[GitHub](https://github.com/vanshajvr) | [LinkedIn](https://www.linkedin.com/in/vanshajverma60/)
+
+
+
